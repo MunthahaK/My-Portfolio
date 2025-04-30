@@ -2204,7 +2204,9 @@ ul.social-icons li a:hover {
 @media (max-height: 515px) {
     .banner_section {
       height:150vh ;
-      
+    }
+    .banner-info{
+        top: 30%;
     }
   }
 
