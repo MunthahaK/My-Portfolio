@@ -1830,6 +1830,11 @@ ul.social-icons li a:hover {
     .about-me-photo img{
         width:400px; 
     }
+    .banner-info {
+        position: absolute;
+        top: 30%;
+        left: 3%;
+    }
 }
 
 @media(max-width:575px){
@@ -1978,7 +1983,6 @@ ul.social-icons li a:hover {
 }
 
 @media(max-width:480px) {
-
     .banner-info h3{
         font-size: 2.6em;
     }
@@ -2044,12 +2048,6 @@ ul.social-icons li a:hover {
         padding-left: 10px;
         float: left;
         width: 48%;
-    }
-   
-    .banner-info {
-        position: absolute;
-        top: 37%;
-        left: 3%;
     }
     .testimonials {
         height: 97vw;
@@ -2203,5 +2201,11 @@ ul.social-icons li a:hover {
         width:400px; 
     }
 }
+@media (max-height: 515px) {
+    .banner_section {
+      height:150vh ;
+      
+    }
+  }
 
 /*--//responsive--*/
