@@ -496,7 +496,7 @@ h4.progress-tittle-w3 {
     left: 0;
     height: 100%;
     width: 100%;
-    opacity: 0.75;
+    opacity: 0.79;
     background: #050f1d;
     z-index: -1;
 }
@@ -873,7 +873,7 @@ a.carousel-control-prev.test {
     left: 0;
     height: 100%;
     width: 100%;
-    opacity: 0.75;
+    opacity: 0.79;
     background: #040c16; /* Black overlay with 50% opacity */
     z-index: -1;
 }
