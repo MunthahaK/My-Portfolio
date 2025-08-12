@@ -277,7 +277,7 @@ div#word-mark h1 a {
 /*-- /header --*/
 
 .banner_section {
-    background: url(../images/withBlend.png) no-repeat 0px 0px;
+    background: url(../images/mainBanner.png) no-repeat 0px 0px;
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -506,6 +506,16 @@ h4.progress-tittle-w3 {
     background: rgba(243, 244, 245, 0.17);
     transition: ease 0.4s;
 }
+@media (min-width: 992px){
+     .service-in .card{
+        height: 270px;
+     }
+}
+@media (min-width: 1200px){
+     .service-in .card{
+        height: 300px;
+     }
+}
 .service-in .card:hover{
     background: #2b97fc70;
 }
@@ -676,7 +686,7 @@ p.sub-meta {
 .section_1_gallery_grid1 {
     position: relative;
     background: #ffffffe5;
-    padding: 15px;
+    padding: 16px;
 }
 
 .proj_gallery_grid1_pos {
@@ -739,6 +749,11 @@ p.quia {
 
 .proj_gallery_grid img {
     width: 100%;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section_1_gallery_grid1 {
+    height: 380px;
+  }
 }
 /*-- //gallery --*/
 
@@ -1625,7 +1640,7 @@ ul.social-icons li a:hover {
         width:400px; 
     }
     .banner_section {
-    background: url(../images/mobileWithBlend.png) no-repeat 0px 0px;
+    background: url(../images/mobileBanner.png) no-repeat 0px 0px;
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -1651,6 +1666,11 @@ ul.social-icons li a:hover {
     opacity: 0.3;
     background: #030911;
 }
+.banner-info {
+        position: absolute;
+        top: 39%;
+        left: 3%;
+    }
 }
 
 @media(max-width:768px) {
@@ -1856,11 +1876,6 @@ ul.social-icons li a:hover {
     .about-me-photo img{
         width:400px; 
     }
-    .banner-info {
-        position: absolute;
-        top: 37%;
-        left: 3%;
-    }
 }
 
 @media(max-width:575px){
@@ -1954,7 +1969,7 @@ ul.social-icons li a:hover {
     .section_1_gallery_grid1 {
         position: relative;
         background: #ffffffe5;
-        padding: 15px;
+        padding: 17px;
     }
 }
 
@@ -2004,7 +2019,13 @@ ul.social-icons li a:hover {
         padding: 5em 0.5em; 
      }
      .section_1_gallery_grid1 {
-        padding: 8px 8px 1px 8px;
+        padding: 9px 9px 5px 9px;
+    }
+    .banner_section{
+        height: 668px;
+    }
+    .banner_section:before{
+        height: 100%;
     }
 }
 
@@ -2101,9 +2122,7 @@ ul.social-icons li a:hover {
 }
 
 @media(max-width:414px) {
-    .banner_section {
-        height: 100vh;
-    }
+    
     #brand {
         padding-left: 10px;
         float: left;
@@ -2195,7 +2214,6 @@ ul.social-icons li a:hover {
     .about-me-photo img{
         width:400px; 
     }
-    
 }
 
 @media(max-width:320px) {
@@ -2226,6 +2244,7 @@ ul.social-icons li a:hover {
     .about-me-photo img{
         width:400px; 
     }
+    
 }
 @media (max-height: 515px) {
     .banner_section {
